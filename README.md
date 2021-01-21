@@ -1,7 +1,7 @@
 To run this application.
 
 1. cd server.
-2. Open cmd - run this command "nodemon index.js".
+2. Open cmd - run this command "npm install" after that "nodemon index.js".
 3. cd client.
 4. Open cmd - run this command "npm install" after that "npm start".
 5. server will run on "http://localhost:4000/"
