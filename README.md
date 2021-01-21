@@ -14,3 +14,4 @@ In this application I have made
  4. Fetch product details.
  5. Add Category.
  6. Filter product by Category wise.
+ 7. Pagination for Product display.
