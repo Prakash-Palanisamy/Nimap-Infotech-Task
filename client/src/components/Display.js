@@ -148,24 +148,24 @@ const Display = () => {
                 <td>{product.ProductId}</td>
                 <td>{product.ProductName}</td>
                 <td>{product.CategoryName}</td>
-                <td><Button href={`/edit_product/${product._id}`} onClick={()=> updateProduct(product._id)}>Edit</Button></td>
-                <td><Button href="/" onClick={()=> deleteProduct(product._id)}>Delete</Button></td>
+                <td><Button href={`/edit_product/${product._id}`} onClick={()=> updateProduct(product._id)}>&#9988; Edit</Button></td>
+                <td><Button href="/" onClick={()=> deleteProduct(product._id)}>&#10060; Delete</Button></td>
                 </tr>
               ))}
 
                
             </tbody>
         </Table>
-<div className="pagination">
-            <button onClick={gotoPrevious}> &#9985; Previous</button>
-            {pages.map((pageIndex) => (
-                <button key={pageIndex} onClick={() => setPageNumber(pageIndex)}>
-                {pageIndex + 1}
-                </button>
-            ))}
-            <button onClick={gotoNext}>Next </button>
+            <div className="container">
+                      <button onClick={gotoPrevious}> &#8606; </button>
+                      {pages.map((pageIndex) => (
+                          <button key={pageIndex} onClick={() => setPageNumber(pageIndex)}>
+                          {pageIndex + 1}
+                          </button>
+                      ))}
+                      <button onClick={gotoNext}>&#8608; </button>
 
-     </div>
+              </div>
 </div>    )
 }
 

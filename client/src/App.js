@@ -6,6 +6,7 @@ import AddProduct from "./components/AddProduct";
 import Display from "./components/Display";
 import EditProduct from "./components/EditProducts";
 import Category from "./components/Categories";
+import Footer from "./components/Footer";
 
 function App() {
  
@@ -27,8 +28,8 @@ function App() {
           <Route exact path="/edit_product/:id">
             <EditProduct />
           </Route>
-         
         </Switch>
+        <Footer/>
       </Router>
 
      

@@ -41,7 +41,7 @@ const Category = () => {
             {category.map((c) => (
               <tr key={c._id}>
                 <td>{c.CategoryName}</td>
-                <td><Button href="/category" onClick={()=> deleteCategory(c._id)}>Delete</Button></td>
+                <td><Button href="/category" onClick={()=> deleteCategory(c._id)}>&#10060; Delete</Button></td>
                 </tr>
               ))}
 
