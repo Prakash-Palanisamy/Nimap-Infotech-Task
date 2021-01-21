@@ -6,6 +6,9 @@ To run this application.
 4. Open cmd - run this command "npm install" after that "npm start".
 5. server will run on "http://localhost:4000/"
 6. front end application will run on "http://localhost:3000/"
+7. Insert data to collection in the mongodb using product.json and categories.json files.
+ Database Name: Nimap_Infotech
+ Collection Names: product and categories.
 
 In this application I have made
  1. Add product details.
